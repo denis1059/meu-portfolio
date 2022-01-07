@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 header{
     display: flex;
@@ -23,27 +20,20 @@ header{
 
 nav{
    text-align: right;
-
-
 }
 
 
 #roda{
-
     display: inline-block;
     width: 50px;
     height: 50px;
     margin-right: 10px;
     transition: transform 900ms linear;
-
 }
 
 #roda:hover{
-
     transform:  rotate(556deg) 
 }
-
-
 
 a{
     display: inline-flex;
@@ -56,26 +46,4 @@ a{
     margin-top: 10px;
     align-items: center;
     transition: transform 200ms linear;
-    
 }
-
-
-
-
-#button{
-    background-color: #C41F33;
-    display: inline-block;
-    padding: 18px 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0px;
-    transition: transform 200ms linear;
-
-}
-#button:hover{
-    transform: translateX(10px) rotate(15deg) translateY(5px);
-    background-image: url(assets/imgs/pneu.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
-}
-
