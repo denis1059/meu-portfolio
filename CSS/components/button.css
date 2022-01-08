@@ -14,7 +14,7 @@
 }
 .button:hover{
     transform: translateX(10px) rotate(15deg) translateY(5px);
-    background-image: url(/assets/imgs/pneu.png);
+    background-image: url(../../assets/imgs/pneu.png);
     background-size: 200px;
     background-repeat: no-repeat;
 }
