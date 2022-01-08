@@ -14,3 +14,10 @@
     text-shadow: 4px 4px 0 black;
     color: white;
 }
+
+.skills .title.-second{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
