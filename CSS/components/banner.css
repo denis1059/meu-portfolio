@@ -1,0 +1,31 @@
+
+.banner{
+  background-image: url(/assets/imgs/photo.png);
+  background-repeat: no-repeat;
+  height: 723px;
+  background-size: 100%;
+
+}
+
+.banner .wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  padding-top: 115px;
+  padding-left: 634px;
+  align-items: center;
+
+}
+
+.banner .box{
+  margin-bottom: 40px;
+ 
+
+}
+
+.banner .navigation{
+
+  display: inline;
+  justify-content: center;
+}
+

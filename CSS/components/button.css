@@ -1,16 +1,32 @@
-#button{
+.button{
     background-color: #C41F33;
     display: inline-block;
     padding: 18px 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 0 black;
-    margin-right: 0px;
+    margin-left: 93px;
     transition: transform 200ms linear;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "fira Code";
+    
 
 }
-#button:hover{
+.button:hover{
     transform: translateX(10px) rotate(15deg) translateY(5px);
-    background-image: url(assets/imgs/pneu.png);
+    background-image: url(/assets/imgs/pneu.png);
     background-size: 200px;
     background-repeat: no-repeat;
+}
+
+.buttonN{
+    background-color: #C41F33;
+    display: inline-block;
+    padding: 18px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 black;
+    font-family: "fira Code";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
 }
