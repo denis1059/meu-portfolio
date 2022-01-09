@@ -6,3 +6,18 @@
 
 }
 
+.skills-list{
+    display: flex;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color: white;
+    
+}
+
+.skills-list .icon{
+    margin-right: 25px;
+}
+
+
+
+
