@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="CSS/components/button.css">
         <link rel="stylesheet" href="CSS/components/banner.css">
         <link rel="stylesheet" href="CSS/components/skills.css">
+        <link rel="stylesheet" href="CSS/components/progress-bar.css">
         <title>Portfolio</title>
     </head>
 
@@ -50,17 +51,59 @@
 
 
     <section class="skills">
-        <h2 class="title -second">Skills</h2>
+            <h2 class="title -second">Skills</h2>
 
-        <dl class="skills-list"> 
+            <div class="caixa">
+            <article class="skills-html"> 
+                <img  class= "icon-html"src="assets/imgs/html_ico.png" alt="html logo">
 
-            <dd class="icon"> <img src="assets/imgs/html_ico.png" alt="html logo">
-        
-            </dd>
-            <dt class=" title-sk">HTML</dt>
-        
-        </dl>
+                <div class="right-html">
+                   <h3 class=" title-sk">HTML</h3>
+                    <progress class="progress-html" max="100" value="70"> 
+                        70%
+                      </progress>
+                   </div>
 
+
+                   <article class="skills-nodejs"> 
+                    <img  class= "icon-nodejs"src= "assets/imgs/node_js_ico.png" alt="css logo">
+    
+                    <div class="right-nodejs">
+                       <h3 class=" title-sk">Node.Js</h3>
+                        <progress class="progress-nodejs" max="100" value="30"> 
+                            30%
+                          </progress>
+                       </div>
+    
+                </article>
+
+            </article>
+
+            <article class="skills-css"> 
+
+                <img  class= "icon-css"src= "assets/imgs/css3_ico.png" alt="css logo">
+
+                <div class="right-css">
+                   <h3 class=" title-sk">CSS</h3>
+                    <progress class="progress-css" max="100" value="70"> 
+                        70%
+                      </progress>
+                   </div>
+
+
+                   <article class="skills-js"> 
+
+                    <img  class= "icon-js"src= "assets/imgs/javascript_ico.png" alt="js logo">
+    
+                    <div class="right-js">
+                       <h3 class=" title-sk">Java-Script</h3>
+                        <progress class="progress-js" max="100" value="50"> 
+                            50%
+                          </progress>
+                       </div>
+            </article>
+
+            </div>
 
     </section>
     

@@ -1,23 +1,127 @@
 .skills{
     background-color: #78733C;
-    height: 800px;
-    border-bottom: 10px solid black;
- 
+    height: 500px;
+    border-color: black;
+    border-bottom: 10px solid;
+    
 
 }
 
-.skills-list{
+.skills-html{
     display: flex;
     font-family: "Press Start 2P";
     font-size: 25px;
     color: white;
-    
+    margin-left: 90px;
 }
 
-.skills-list .icon{
+.icon-html{
     margin-right: 25px;
+    height: 90px;
 }
 
+.skills-html .right-html{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+
+.icon-css{
+margin-right: 25px;
+height: 90px;
+
+}
+.skills-css{
+    margin-top: 40px;
+    display: flex;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color: white;
+    margin-left: 90px;
+}
+
+.skills-css .right-css{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.skills-css .right-css{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+.skills-nodejs{
+    display: flex;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color: white;
+    margin-left: 90px;
+}
+
+.skills-nodejs .nodejs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.skills-nodejs .right-nodejs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.icon-nodejs{
+    margin-right: 25px;
+    height: 90px;
+}
+
+
+.skills-js{
+    display: flex;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color: white;
+    margin-left: 90px;
+}
+
+.skills-js .js{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.skills-js .right-js{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.icon-js{
+    margin-right: 25px;
+    height: 90px;
+}
+
+
+.caixa{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 86px;
+
+
+
+}
 
 
 

@@ -1,10 +1,8 @@
-progress {
+.progress-html{
     -webkit-appearance: none;
-    margin-left: 50px;
-    
-
   }
-::-webkit-progress-value {
+  
+  .progress-html::-webkit-progress-value {
     background-image: url(../../assets/imgs/corrente.png);
     background-repeat: no-repeat;
     background-size: 100% 30px ;
@@ -13,12 +11,98 @@ progress {
     height: 90px;
   }
 
-  ::-webkit-progress-bar {
+ 
+  .progress-html::-webkit-progress-bar {
     background-repeat: no-repeat;
     background-size: 100% 30px ;
-    background-color: white;
+    background-color: #F16529;
     border-radius: 10px;
     box-shadow: 10px black;
     width: 300px;
     height: 30px;
+   
+  }
+
+
+
+
+
+  .progress-css{
+    -webkit-appearance: none;
+  }
+  
+  .progress-css::-webkit-progress-value {
+    background-image: url(../../assets/imgs/corrente.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30px ;
+    background-color: transparent;
+    width: 100px;
+    height: 90px;
+  }
+
+ 
+  .progress-css::-webkit-progress-bar {
+    background-repeat: no-repeat;
+    background-size: 100% 30px ;
+    background-color: #29A9DF;
+    border-radius: 10px;
+    box-shadow: 10px black;
+    width: 300px;
+    height: 30px;
+   
+  }
+
+
+
+
+  .progress-nodejs{
+    -webkit-appearance: none;
+  }
+  
+  .progress-nodejs::-webkit-progress-value {
+    background-image: url(../../assets/imgs/corrente.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30px ;
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+  }
+
+ 
+  .progress-nodejs::-webkit-progress-bar {
+    background-repeat: no-repeat;
+    background-size: 100% 30px ;
+    background-color: #539E43;
+    border-radius: 10px;
+    box-shadow: 10px black;
+    width: 300px;
+    height: 30px;
+   
+  }
+
+
+
+  .progress-js{
+    -webkit-appearance: none;
+  }
+  
+  .progress-js::-webkit-progress-value {
+    background-image: url(../../assets/imgs/corrente.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30px ;
+    background-color: transparent;
+    width: 100px;
+    height: 90px;
+  }
+
+ 
+  .progress-js::-webkit-progress-bar {
+    background-repeat: no-repeat;
+    background-size: 100% 30px ;
+    background-color: #FFC825;
+    border-radius: 10px;
+    box-shadow: 10px black;
+    width: 300px;
+    height: 30px;
+   
   }
