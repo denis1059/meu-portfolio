@@ -17,7 +17,8 @@
 
 .skills .title.-second, 
 .projects .title.-third,
-.about .title.-fourth {
+.about .title.-fourth,
+.contact .title.-fifth {
     color: white;
     text-align: center;
     padding-top: 20px;
