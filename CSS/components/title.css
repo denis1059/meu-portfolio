@@ -15,7 +15,9 @@
     color: white;
 }
 
-.skills .title.-second, .projects .title.-third {
+.skills .title.-second, 
+.projects .title.-third,
+.about .title.-fourth {
     color: white;
     text-align: center;
     padding-top: 20px;

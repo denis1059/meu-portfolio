@@ -1,0 +1,17 @@
+.about{
+
+    background-color: #717C32;
+    height: 500px;
+}
+
+.about .texto{
+    color: white;
+    font-family: "Fira Code";
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    padding: 45px;
+
+
+}
