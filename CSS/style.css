@@ -1,46 +1,65 @@
-
-
+/* Estilos padrão para o header */
 header{
-    display: flex;
-    background-color: #899349  ;
-    border-bottom: 10px solid none;
-   padding: 10px 20px;
-   justify-content: space-between;
-   align-items: center;
-    
+  display: flex;
+  background-color: #899349;
+  border-bottom: 10px solid none;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* Estilos para o logotipo */
 #logod{
-    width: 200px;
-    height: 40px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 
-
+/* Estilos para os ícones */
 .roda{
+  display: none;
+}
+
+/* Mostrar ícones apenas em telas maiores que 768px */
+@media (min-width: 768px) {
+  .roda{
     display: inline-block;
     width: 50px;
     height: 50px;
     margin-right: 10px;
     transition: transform 900ms linear;
+  }
+
+  .roda:hover{
+    transform: rotate(556deg);
+  }
 }
 
-.roda:hover{
-    transform:  rotate(556deg) 
-}
-
+/* Estilos para o menu */
 .menu{
-    display: inline-flex;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: "fira Code";
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-    margin-top: 10px;
-    align-items: center;
-    transition: transform 200ms linear;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "fira Code";
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-items: center;
+  transition: transform 200ms linear;
 }
 
+/* Estilos para a foto */
 .minhafoto{
+  display: none;
+}
+
+/* Mostrar foto apenas em telas maiores que 768px */
+@media (min-width: 768px) {
+  .minhafoto{
     display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
 }
